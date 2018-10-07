@@ -1,2 +1,6 @@
 # experiment1
-Some learning is required... 
+
+Some learning is required...
+
+Por Carlson
+Em  Out/2018

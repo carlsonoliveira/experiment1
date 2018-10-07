@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+ {% block parte_inicial %}
+    <h3>Texto para extração:</h3>
+ {% endblock %}
+
+ {% block corpo_principal %}
+  <form action="{{ url_for('topicextraction') }}" method="POST">
+    <textarea name="texto" rows="20" cols="80">O texto é...</textarea>
+    <br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+ {% endblock %}
